@@ -10,5 +10,5 @@ As of right now, here are the tools available:
 
 ## Windows Privilege Escalation
 - Example of how you could use a script to escalate privilege on a windows machine via powershell
-- the `cmd.exe` argument can be changed to any file you wish to run as administrator (opening the command prompt may not be very subtle)
+- the `cmd.exe` argument can be changed to any file you wish to run as administrator (opening the command prompt directly may not be very subtle)
 - Credits: John Hammond
