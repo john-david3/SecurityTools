@@ -1,5 +1,5 @@
 try {
-    Get-ChildItem "njdvknldfsklv"
+    throw "error"
 } catch {
     while ( -not $? ){
         try{
