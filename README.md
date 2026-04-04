@@ -1,14 +1,15 @@
 # Security Tools Repository
-This repository contains a series of tools that can be used to exploit common vulnerabilities. These tools are purely for educational purposes and should not be used with malintent
+This repository contains a series of tools that can be used to exploit common vulnerabilities.
+**Disclaimer: These tools are for educational purposes only and authorised security testing only. Do not use these tools without explicit permission
 As of right now, here are the tools available:
-- Brute Force Password Breaker `pass_break.py`
-- Windows Privilege Escalation `PrivilegeEscalation.ps1`
 
-## Brute Force Password Breaker
-- Reads from a file containing the top 10 million passwords, if password is not in this file, begin brute forcing
-- The file containing these passwords is not attached in this repository but can be found here: [Top 10million passwords](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt)
+## Password Attacks
+- Hybrid Password Attack Tool `password-attacks/hybrid-attack/password_cracker.py`
+    - Combines dictionary-based attacks (Top 10 million passwords) with brute-force fallback.
+    - The file containing these passwords can be found here: [Top 10million passwords](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt)
 
-## Windows Privilege Escalation
-- Example of how you could use a script to escalate privilege on a windows machine via powershell
-- the `cmd.exe` argument can be changed to any file you wish to run as administrator (opening the command prompt directly may not be very subtle)
-- Credits: John Hammond
+## Privilege Escalation
+- Windows Privilege Escalation Script `privilege-escalation/windows/priv_esc.ps1`
+    - Example of how you could use a script to escalate privilege on a windows machine via powershell
+    - the `cmd.exe` argument can be changed to any file you wish to run as administrator (opening the command prompt directly may not be very subtle)
+    - Credits: John Hammond
