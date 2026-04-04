@@ -6,7 +6,7 @@ As of right now, here are the tools available:
 ## Password Attacks
 - Hybrid Password Attack Tool `password-attacks/hybrid-attack/password_cracker.py`
     - Combines dictionary-based attacks (Top 10 million passwords) with brute-force fallback.
-    - The file containing these passwords can be found here: [Top 10million passwords](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt)
+    - The file containing these passwords can be found here: [Top 10million passwords](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/Pwdb_top-10000000.txt)
 
 ## Privilege Escalation
 - Windows Privilege Escalation Script `privilege-escalation/windows/priv_esc.ps1`
